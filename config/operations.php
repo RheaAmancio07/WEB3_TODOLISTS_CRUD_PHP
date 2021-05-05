@@ -168,6 +168,20 @@
 
      public function Delete_trashRecord(){
         global $db;
+        $sql = "delete from trash where trashID='" . $_GET["T_ID"] . "'";
+        $result = mysqli_query($db->connection,$sql);
+         if($result)
+         {
+             return true;
+         }
+         else
+         {
+             return false;
+         }
+     }
+
+     public function undoTrash(){
+        global $db;
         $sql = "delete from trash where trashID='" . $_GET["U_ID"] . "'";
         $result = mysqli_query($db->connection,$sql);
          if($result)

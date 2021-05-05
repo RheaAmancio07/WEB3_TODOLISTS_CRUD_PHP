@@ -11,7 +11,7 @@
         if($db->copy_trashRecord($ID))
         {
             
-            $db->Delete_trashRecord();
+            $db->undoTrash();
             $db->set_messsage('<div class="alert alert-danger">  Your Tasks Has Been Deleted </div>');
             header("location:trashes.php");
         }
