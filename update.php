@@ -85,12 +85,12 @@ to {background-position: -100px 0px;background-size:2750px;}
                             <form method="POST">
                             <input type="hidden" name="ID" value="<?php echo $data['ID']; ?>">
                                 <input type="text" name="TaskName" placeholder=" Task Name" class="form-control mb-2" required value="<?php echo $data['TaskName']; ?>">
-                                <input type="text" name="TaskBody" placeholder=" Task Body" class="form-control mb-2" required value="<?php echo $data['TaskBody']; ?>">
+                                <input type="text" name="TaskBody" placeholder=" Task Content" class="form-control mb-2" required value="<?php echo $data['TaskBody']; ?>">
                         </div>
                     <div class="card-footer">
                     <button class="btn btn-success" name="btn_update"> <img style="width:30px; border-radius:50%;" src="https://png.pngtree.com/png-vector/20190701/ourlarge/pngtree-refresh-icon-for-your-project-png-image_1533530.jpg"> Update </button>
                     
-                    <a href="view.php" class="btn btn-danger "> <img style="width:30px; border-radius:50%;"src="https://media.istockphoto.com/vectors/no-sign-red-circle-line-illegal-icon-vector-id1080261168?k=6&m=1080261168&s=170667a&w=0&h=edIWpiwlLVHXp8KnIO5fEAaIc6iHuXIrMKFS6ihVW2A=" > Cancel</a>
+                    <a href="view.php" class="btn btn-danger "> <img style="width:30px; border-radius:50%;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK_vU5T4qh9UjOrC1p17IVeXmSMi70z04KwS_WZs9MNc9_8YjloxfvXeO1W30GDk1NpgA&usqp=CAU" > Cancel</a>
                     
                             
                         </form>

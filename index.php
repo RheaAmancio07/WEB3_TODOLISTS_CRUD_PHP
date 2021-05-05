@@ -30,7 +30,7 @@
                         <div class="card-body">
                             <form method="POST">
                                 <input type="text" name="TaskName" placeholder=" Task Title" class="form-control mb-2" required>
-                                <input type="text" name="TaskBody" placeholder=" Tasks Description" class="form-control mb-2" required>
+                                <input type="text" name="TaskBody" placeholder=" Tasks Content" class="form-control mb-2" required>
                         </div>
                     <div class="card-footer">
                     <button href="view.php" type="submit" name="btn_save" class="btn btn-success"><img style="width:30px; border-radius:50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3o8WgazQJTeZtOqOb1Oy44883YnYwxm8RDyediV9bh4NRMj79G1hMyiiwvttSKczREc&usqp=CAU"> Add Task</button>
