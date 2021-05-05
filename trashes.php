@@ -14,60 +14,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Crud Operation in Php Using OOP</title>
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
-body  {
-    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
-        -webkit-animation: slidein 100s;
-        animation: slidein 100s;
-
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;              
-}
-
-@-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-}
-
-@keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-
-}
-
-
-
-.center
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(75, 75, 250, 0.3);
-  border-radius: 3px;
-}
-.center h1{
-  text-align:center;
-  color:white;
-  font-family: 'Source Code Pro', monospace;
-  text-transform:uppercase;
-}
-</style>
-<body >
+<body class="p-3 mb-2 bg-secondary text-white">
 
 <div class="containers">
 
@@ -76,7 +24,7 @@ to {background-position: -100px 0px;background-size:2750px;}
             <div class="col">
                 <div class="card mt-2 bg-transparent border-primary">
                     <div class="card-header bg-primary">
-                        <h2 class="text-center text-white "> Deleted Todo Lists </h2>
+                        <h2 class="text-center text-white "> Trash Lists </h2>
                     </div>
                     <div class="card-body bg-primary">
                         <?php
@@ -84,7 +32,7 @@ to {background-position: -100px 0px;background-size:2750px;}
                               $db->display_message();
                         ?>
                         <div>
-                        <a href="view.php" class="btn btn-success"><img style="width:30px; border-radius:50%;" src="https://lh3.googleusercontent.com/proxy/BwhwYEAsDlFpHE0mOBAHPq4xEdelc8ytmtMcIyVGZCOxIpwrKzPKmmgSy14mfbvNNnu9YtdTpB7DmFvlfLiVe9xwggWUFiH1VrP_0im2SfolyhMzAzD6HI1wnK_ezVEnQpKtsi8NdobECQ" alt="" srcset=""> Home</a>
+                        <a href="view.php" class="btn btn-success"><img style="width:30px; border-radius:50%;" src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-color-round/3/67-512.png" alt="" srcset=""> Home</a>
                         </div>
                         <br>
                         <div class="row ">
